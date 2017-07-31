@@ -16,4 +16,9 @@ public class MovieTest {
   public void hasTitle(){
     assertEquals("Hobbit", movie.getTitle());
   }
+
+  @Test
+  public void hasScore(){
+    assertEquals(5, movie.getScore());
+  }
 }

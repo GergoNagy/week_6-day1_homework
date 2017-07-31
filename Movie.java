@@ -12,4 +12,8 @@ class Movie{
   public String getTitle(){
     return this.title;
   }
+
+  public int getScore(){
+    return this.score;
+  }
 }
